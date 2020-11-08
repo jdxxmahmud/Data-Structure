@@ -163,7 +163,7 @@ void print()
 
     while(current_node!= NULL) /// Loop until you reach NULL
     {
-        printf("%d\n", current_node->roll,current_node->roll);
+        printf("%d\n", current_node->roll);
         current_node = current_node->next;
     }
 }
